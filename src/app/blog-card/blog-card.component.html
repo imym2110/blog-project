@@ -1,0 +1,19 @@
+<section>
+    <div *ngFor="let category of category" class="container blog-container">
+        <div class="row blog-heading-row">
+            <div class="col-lg-6 p-0">
+                <p class="blog-heading">{{ category.title }}
+                    <img src="../../assets/images/Line 3.png" alt="line">
+                </p>
+            </div>
+            <div class="col-lg-6 p-0">
+                <p class="blog-heading-1">See All Article
+                    <img class="arrow-button" src="../../assets/images/arrow.png" alt="arrow">
+                </p>
+            </div>
+        </div>
+    <app-blog-grid [blogs]="getBlogs"></app-blog-grid>
+
+</div>
+</section>
+<button class="Read-more-button">More Article</button>

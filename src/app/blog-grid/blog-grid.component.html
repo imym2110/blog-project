@@ -1,0 +1,57 @@
+<div class="row blog-section">
+    <div *ngFor="let blogs of blogs" class="col-lg-3 blog-card">
+        <img class="img" src="{{blogs.image}}" alt="css">
+        <p class="blog-card-content">{{blogs.desc}}</p>
+        <div class="row blog-subsection">
+            <div class="col-lg-3">
+                <img class="profile-img" src="../../assets/images/profile.jpg" alt="profile">
+            </div>
+            <div class="col-lg-9">
+                <p class='blog-subcontent'>Yash</p>
+                <pre class="blog-subcontent-1">{{myDate | date:'dd/MM/yyyy'}} ∙ 3 min read</pre>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="col-lg-3 blog-card">
+                <img class="img" src="../../assets/images/Article_Image_3.png" alt="css">
+                <p class="blog-card-content">Grid CSS make your life easier</p>
+                <div class="row blog-subsection">
+                    <div class="col-lg-3">
+                        <img class="profile-img" src="../../assets/images/profile.jpg" alt="profile">
+                    </div>
+                    <div class="col-lg-9">
+                        <p class='blog-subcontent'>Yash</p>
+                        <pre class="blog-subcontent-1">{{myDate | date:'dd/MM/yyyy'}} ∙ 3 min read</pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 blog-card">
+                <img class="img" src="../../assets/images/Article_Image_2.png" alt="css">
+                <p class="blog-card-content">Make animated light mode and dark mode toggle with CSS</p>
+                <div class="row blog-subsection">
+                    <div class="col-lg-3">
+                        <img class="profile-img" src="../../assets/images/profile.jpg" alt="profile">
+                    </div>
+                    <div class="col-lg-9">
+                        <p class='blog-subcontent'>Yash</p>
+                        <pre class="blog-subcontent-1">{{myDate | date:'dd/MM/yyyy'}} ∙ 3 min read</pre>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-3 blog-card">
+                <img class="img" src="../../assets/images/Article_Image_1.png" alt="css">
+                <p class="blog-card-content">Make tic tac toe games with react JS</p>
+                <div class="row blog-subsection">
+                    <div class="col-lg-3">
+                        <img class="profile-img" src="../../assets/images/profile.jpg" alt="profile">
+                    </div>
+                    <div class="col-lg-9">
+                        <p class='blog-subcontent'>Yash</p>
+                        <pre class="blog-subcontent-1">{{myDate | date:'dd/MM/YYYY'}} ∙ 3 min read</pre>
+                    </div>
+                </div>
+            </div> -->
+</div>

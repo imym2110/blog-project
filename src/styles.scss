@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+
+$primary: #6246EA;
+
+@import 'bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+
+
+$font-plus-jakarta: 'Plus Jakarta Sans', sans-serif;
+
+html, body
+{
+        height:100vh;
+        width: 100%;
+}
+
+*
+{
+    font-family: $font-plus-jakarta;
+}
+
+// .scrolltop-button{
+    
+//     background-color: $primary !important;
+// }
